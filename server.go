@@ -67,7 +67,7 @@ func main() {
     mux.Handle("/ws", recoverMiddleware(loggingMiddleware(http.HandlerFunc(handleWS))))
 
     srv := &http.Server{
-        Addr:    ":80",
+        Addr:    ":8080",
         Handler: mux,
     }
 
@@ -247,3 +247,4 @@ func recoverMiddleware(next http.Handler) http.Handler {
         next.ServeHTTP(w, r)
     })
 }
+
