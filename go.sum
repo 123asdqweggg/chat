@@ -1,0 +1,4 @@
+github.com/gorilla/websocket v1.5.1 h1:V8kV9Zf2xYv3GSnVAk0nnBYnCTsRmR271Gq5u7nYwYc=
+github.com/gorilla/websocket v1.5.1/go.mod h1:YR8lH7r3tE4VbQ+u1T0tYdIuZ3rGgxZ1j5rVJf2z5wE=
+go.etcd.io/bbolt v1.3.7 h1:8x7LrYJtZLxE+nobVhtSGcVwqDAVBBusZT6F4LmSpaI=
+go.etcd.io/bbolt v1.3.7/go.mod h1:IbJxZKp8nXl16rYPD6/COM24kTx5cDIeEJD7BqXc9u0=
